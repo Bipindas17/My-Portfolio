@@ -3,38 +3,154 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bipin Das | Mobile and Web Developer</title>
+  <meta name="theme-color" content="#08090c">
+  <meta name="description" content="Bipin Das — creative developer building thoughtful web applications, interactive tools, and games.">
+  <title>Bipin Das — Creative Developer & Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span id="progressBar"></span></div>
 
-  <header>
-    <h1>Bipin Das</h1>
-    <p>Full-Stack Web Developer & Mobile Solutions</p>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Bipin Das home"><span class="brand-mark">B<span>.</span></span><span class="brand-name">BIPIN DAS<small>DEVELOPER / BUILDER</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#services">Services</a>
+      <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
   </header>
 
-  <section class="about">
-    <h2>What I Do</h2>
-    <p>I build clean, fast, and mobile-responsive websites for small businesses and creators using HTML, Tailwind, PHP, and modern web tech.</p>
-  </section>
+  <main>
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <div class="eyebrow reveal"><span class="status-dot"></span> AVAILABLE FOR SELECT PROJECTS <span class="eyebrow-line"></span> 2026</div>
+        <h1 class="hero-title reveal">I build digital<br>things with <span class="serif-accent">purpose.</span></h1>
+        <p class="hero-description reveal">I'm Bipin — a creative developer turning ambitious ideas into useful web experiences, interactive products, and games.</p>
+        <div class="hero-actions reveal"><a class="button button-primary" href="#work">Explore my work <span>↘</span></a><a class="text-link" href="mailto:bipindas204@gmail.com">Get in touch <span>↗</span></a></div>
+        <div class="hero-meta reveal"><span>BASED IN SOUTH ASIA</span><span class="meta-divider"></span><span>DESIGN-MINDED. BUILD-FOCUSED.</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Abstract digital artwork">
+        <div class="art-grid"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="art-core"><span class="core-symbol">b<span>.</span></span><span class="core-caption">IDEAS → INTERFACE</span></div>
+        <span class="art-coordinate coord-top">27°N / 85°E</span><span class="art-coordinate coord-bottom">INDEPENDENT CREATIVE PRACTICE</span>
+        <span class="art-cross cross-one">+</span><span class="art-cross cross-two">+</span>
+      </div>
+      <a class="scroll-cue" href="#work"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
 
-  <section class="services">
-    <h2>Services</h2>
-    <div class="card">
-      <h3>Landing Page Development</h3>
-      <p>Custom, fast-loading 1-page websites optimized for mobile visitors.</p>
-    </div>
-    <div class="card">
-      <h3>Bug Fixing & Styling</h3>
-      <p>Fixing layout glitches, mobile responsiveness issues, and styling bugs.</p>
-    </div>
-  </section>
+    <section class="ticker" aria-label="Areas of focus"><div class="ticker-track"><span>WEB APPLICATIONS</span><i>✳</i><span>INTERACTIVE EXPERIENCES</span><i>✳</i><span>PRODUCT THINKING</span><i>✳</i><span>GAME WORLDS</span><i>✳</i><span>WEB APPLICATIONS</span><i>✳</i><span>INTERACTIVE EXPERIENCES</span><i>✳</i><span>PRODUCT THINKING</span><i>✳</i><span>GAME WORLDS</span><i>✳</i></div></section>
 
-  <section class="contact">
-    <h2>Work With Me</h2>
-    <p>Need a website built or fixed? Send me a message!</p>
-    <a href="mailto:your-email@gmail.com" class="btn">Get in Touch</a>
-  </section>
+    <section class="section-wrap work-section" id="work">
+      <div class="section-heading reveal"><div><span class="section-kicker">01 / SELECTED WORK</span><h2>Ideas made <span class="serif-accent">real.</span></h2></div><p>A selection of concepts and builds across education, commerce, and interactive storytelling.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-feature reveal">
+          <a class="project-visual visual-quiz" href="mailto:bipindas204@gmail.com?subject=Saraswati%20Quizzes%20project" aria-label="Ask about Saraswati Quizzes project">
+            <div class="visual-top"><span>EDTECH / 01</span><span>2026 ↗</span></div><div class="quiz-window"><div class="window-bar"><span></span><span></span><span></span><b>SARASWATI / LEARN</b></div><div class="quiz-content"><span class="tiny-label">COMPUTER ENGINEERING</span><h3>Test your<br>knowledge.</h3><div class="quiz-option selected">A. Data structures <span>✓</span></div><div class="quiz-option">B. Operating systems</div><div class="quiz-option">C. Computer networks</div><div class="quiz-progress"><span></span></div></div></div><span class="visual-index">01</span>
+          </a>
+          <div class="project-info"><div><h3>Saraswati Quizzes</h3><p>An interactive learning platform designed to make computer engineering practice more engaging.</p></div><span class="project-arrow">↗</span></div><div class="tag-row"><span>EDUCATION</span><span>INTERACTIVE UI</span></div>
+        </article>
+        <article class="project-card reveal">
+          <a class="project-visual visual-commerce" href="mailto:bipindas204@gmail.com?subject=Dashify%20E-Commerce%20project" aria-label="Ask about Dashify E-Commerce project">
+            <div class="visual-top"><span>COMMERCE / 02</span><span>2026 ↗</span></div><div class="dashify-brand">dashify<span>.</span><small>TECH, RECONSIDERED.</small></div><div class="device-stack"><div class="device device-phone"><div class="phone-camera"></div><div class="device-screen"><span>NEW ARRIVAL</span><b>Good tech.<br>Better price.</b><div class="phone-product"></div><small>Explore devices ↗</small></div></div><div class="device device-tablet"><div class="tablet-product"></div><span>REFURBISHED / REIMAGINED</span></div></div><span class="visual-index">02</span>
+          </a>
+          <div class="project-info"><div><h3>Dashify E-Commerce</h3><p>A clean storefront concept for discovering and buying refurbished gadgets.</p></div><span class="project-arrow">↗</span></div><div class="tag-row"><span>E-COMMERCE</span><span>PRODUCT DESIGN</span></div>
+        </article>
+        <article class="project-card reveal">
+          <a class="project-visual visual-game" href="mailto:bipindas204@gmail.com?subject=Durge%20Namah%20game%20concept" aria-label="Ask about Durge Namah game concept">
+            <div class="visual-top"><span>GAME CONCEPT / 03</span><span>IN DEVELOPMENT</span></div><div class="game-sun"></div><div class="game-mountain mountain-back"></div><div class="game-mountain mountain-front"></div><div class="game-title"><span>AN ACTION STORY</span><b>DURGE<br>NAMAH</b><small>MYTH / COURAGE / DESTINY</small></div><span class="visual-index">03</span><span class="game-side-note">A WORLD ROOTED IN FOLKLORE</span>
+          </a>
+          <div class="project-info"><div><h3>Durge Namah</h3><p>An action-game concept and story inspired by rich local folklore and mythic worlds.</p></div><span class="project-arrow">↗</span></div><div class="tag-row"><span>GAME DESIGN</span><span>WORLD BUILDING</span></div>
+        </article>
+      </div>
+      <p class="work-note reveal"><span>↳</span> These are selected projects and concepts. Ask me for details, demos, or the latest build status.</p>
+    </section>
 
+    <section class="about-section" id="about"><div class="section-wrap about-layout">
+      <div class="about-left reveal"><span class="section-kicker">02 / THE APPROACH</span><h2>Curiosity in.<br><span class="serif-accent">Possibility</span> out.</h2><div class="about-stamp"><span>THINK</span><b>✳</b><span>MAKE</span><b>✳</b><span>REFINE</span></div></div>
+      <div class="about-right reveal"><p class="about-lead">I care about how a product <em>works</em>, how it <em>feels</em>, and why it should exist in the first place.</p><p>I use AI as a practical co-pilot to move faster through repetitive work, leaving more room for problem-solving, product logic, and the details that make an experience feel considered.</p><p>From full-stack applications to playful interactive ideas, I like taking a project from a rough sketch to something people can actually use.</p><div class="principles"><div><span>01</span><b>Useful by design</b></div><div><span>02</span><b>Details matter</b></div><div><span>03</span><b>Always learning</b></div></div></div>
+    </div></section>
+
+    <section class="section-wrap services-section" id="services"><div class="section-heading reveal"><div><span class="section-kicker">03 / WHAT I DO</span><h2>Small team energy.<br><span class="serif-accent">Big-picture thinking.</span></h2></div><p>Flexible support for founders, creators, and teams who want to turn an idea into a polished digital product.</p></div>
+      <div class="services-grid">
+        <article class="service-card reveal"><span class="service-number">01</span><div class="service-icon">⌘</div><h3>Websites & web apps</h3><p>Responsive, purposeful experiences built around your users and goals.</p><div class="service-foot"><span>FRONTEND / FULL-STACK</span><span>↗</span></div></article>
+        <article class="service-card reveal"><span class="service-number">02</span><div class="service-icon">✳</div><h3>UI polish & problem solving</h3><p>Refining layouts, fixing bugs, improving mobile experiences, and adding motion with intention.</p><div class="service-foot"><span>UX / OPTIMIZATION</span><span>↗</span></div></article>
+        <article class="service-card reveal"><span class="service-number">03</span><div class="service-icon">◈</div><h3>Interactive concepts</h3><p>Early product ideas, learning tools, and game concepts shaped into clear experiences.</p><div class="service-foot"><span>PROTOTYPES / IDEATION</span><span>↗</span></div></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="section-wrap contact-inner reveal"><span class="section-kicker">04 / HAVE SOMETHING IN MIND?</span><h2>Let's make<br>something <span class="serif-accent">matter.</span></h2><p>Have a product idea, a tricky problem, or a creative project? Tell me what you're imagining.</p><a class="button button-light" href="mailto:bipindas204@gmail.com?subject=Let's%20build%20something">Start a conversation <span>↗</span></a><div class="contact-orbit" aria-hidden="true"></div></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#top">BIPIN DAS<span>.</span></a><span>BUILT WITH CURIOSITY & CARE</span><a href="mailto:bipindas204@gmail.com">BIPINDAS204@GMAIL.COM ↗</a><span>© <span id="year">2026</span></span></footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <script>
+    // Scroll progress + back-to-top visibility
+    const progressBar = document.getElementById('progressBar');
+    const backTop = document.getElementById('backTop');
+    const updateScrollUI = () => {
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      progressBar.style.width = (scrollable > 0 ? window.scrollY / scrollable * 100 : 0) + '%';
+      backTop.classList.toggle('is-visible', window.scrollY > 600);
+    };
+    window.addEventListener('scroll', updateScrollUI, { passive: true });
+    updateScrollUI();
+    backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // Reveal sections as they enter the viewport
+    const revealItems = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            obs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -35px 0px' });
+      revealItems.forEach(item => observer.observe(item));
+    } else {
+      revealItems.forEach(item => item.classList.add('is-visible'));
+    }
+
+    // Mobile navigation
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('nav-open');
+      menuToggle.classList.toggle('is-open', isOpen);
+      menuToggle.setAttribute('aria-expanded', String(isOpen));
+      menuToggle.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
+      document.body.classList.toggle('menu-open', isOpen);
+    });
+    navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      navLinks.classList.remove('nav-open'); menuToggle.classList.remove('is-open');
+      menuToggle.setAttribute('aria-expanded', 'false'); document.body.classList.remove('menu-open');
+    }));
+
+    // Subtle pointer tilt on project cards (disabled for touch/reduced-motion users)
+    if (window.matchMedia('(hover: hover) and (pointer: fine)').matches && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelectorAll('.project-card').forEach(card => {
+        card.addEventListener('pointermove', event => {
+          const rect = card.getBoundingClientRect();
+          const x = (event.clientX - rect.left) / rect.width - 0.5;
+          const y = (event.clientY - rect.top) / rect.height - 0.5;
+          card.style.setProperty('--tilt-x', (y * -2.2).toFixed(2) + 'deg');
+          card.style.setProperty('--tilt-y', (x * 2.2).toFixed(2) + 'deg');
+        });
+        card.addEventListener('pointerleave', () => {
+          card.style.setProperty('--tilt-x', '0deg'); card.style.setProperty('--tilt-y', '0deg');
+        });
+      });
+    }
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
